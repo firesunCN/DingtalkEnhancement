@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">钉钉增强</string>
+    <string name="app_desc">防撤回，防已读</string>
+    <string name="setting">设置</string>
+    <string name="AntiRevoke_setting">防撤回设置</string>
+    <string name="pref_enable_anti_revoke">消息防撤回</string>
+    <string name="other_setting">设置</string>
+    <string name="MaskReadStatus_setting">已读设置</string>
+    <string name="pref_enable_mask_read_status">屏蔽已读状态</string>
+    <string name="pref_show_icon">显示图标</string>
+    <string name="repair">尝试修复插件</string>
+    <string name="generate">生成本机配置</string>
+    <string name="repair_done">修复完成，请重启钉钉</string>
+    <string name="about">关于</string>
+    <string name="author">作者</string>
+    <string name="acknowledgements">致谢</string>
+    <string name="generate_success">生成配置成功</string>
+    <string name="generate_failed">生成配置失败</string>
+    <string name="generating">正在生成配置…</string>
+</resources>

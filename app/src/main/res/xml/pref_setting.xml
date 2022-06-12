@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/other_setting">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="show_icon"
+            android:title="@string/pref_show_icon" />
+
+        <Preference
+            android:key="generate"
+            android:title="@string/generate" />
+
+        <Preference
+            android:key="repair"
+            android:title="@string/repair" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/AntiRevoke_setting">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="is_anti_revoke"
+            android:title="@string/pref_enable_anti_revoke" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/MaskReadStatus_setting">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="is_mask_read_status"
+            android:title="@string/pref_enable_mask_read_status" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/about">
+        <Preference
+            android:key="author"
+            android:summary="firesun"
+            android:title="@string/author" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
